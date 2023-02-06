@@ -13,6 +13,7 @@ const controller = {
 		let productsVisited = products.filter(product => product.category === "visited");
 
 		res.render("index", {
+			title: "Mercado Liebre",
 			productsVisited,
 			productsInSale,
 			toThousand
